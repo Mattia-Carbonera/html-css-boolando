@@ -64,9 +64,8 @@ li {
   max-height: 2em;
 }
 
-.nav button {
-  font-size: 1rem;
-  background-color: #ff6800;
+.nav a {
+  padding: 0.1rem;
 }
 
 /* ________MAIN________ */
