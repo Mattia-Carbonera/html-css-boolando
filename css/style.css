@@ -30,7 +30,10 @@ a {
 
 .header-container {
   height: 4em;
+  width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 1;
 
   /* debug */
   background-color: lightcoral;
@@ -57,24 +60,27 @@ a {
   max-height: 2em;
 }
 
-/* ________HEADER________ */
+/* ________MAIN________ */
 
 /* upper card */
 .card-container {
   padding: 4em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
 }
 
 .card {
-  /* position: relative; */
 }
 
 .photo-card {
-  max-width: 30%;
+  max-width: 600px;
   position: relative;
 }
 
 .photo-card > img {
-  max-width: 100%;
+  max-height: 600px;
 }
 
 .label {
