@@ -21,9 +21,10 @@ li {
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
+.gender a,
+.nav a {
   color: white;
+  text-decoration: none;
 }
 
 /* ________HEADER________ */
@@ -133,6 +134,12 @@ a {
   color: red;
 }
 
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
 /* lower card */
 .label {
   position: absolute;
@@ -145,6 +152,10 @@ a {
 
 .item-description > .price > .full-price {
   text-decoration: line-through;
+}
+
+.item-name {
+  font-weight: bold;
 }
 
 /* ________FOOTER________ */
