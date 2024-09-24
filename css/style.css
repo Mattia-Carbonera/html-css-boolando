@@ -71,7 +71,16 @@ a {
   gap: 25px;
 }
 
-.card {
+.card:hover > .photo-card > .img-uno {
+  display: none;
+}
+
+.photo-card > .img-due {
+  display: none;
+}
+
+.card:hover > .photo-card > .img-due {
+  display: block;
 }
 
 .photo-card {
@@ -130,7 +139,7 @@ a {
   text-decoration: line-through;
 }
 
-/* ________HEADER________ */
+/* ________FOOTER________ */
 
 .footer {
   display: flex;
