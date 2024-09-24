@@ -13,6 +13,7 @@
   padding: 0 10px;
   width: 1300px;
   max-width: 100%;
+  font-family: sans-serif;
 }
 
 /* # GENERAL */
@@ -28,6 +29,10 @@ li {
 }
 
 /* ________HEADER________ */
+
+.item-description span {
+  font-size: small;
+}
 
 .header-container {
   height: 4em;
@@ -188,6 +193,10 @@ a {
 .social > span {
   padding-bottom: 5px;
   font-weight: bold;
+}
+
+.info-company {
+  font-size: small;
 }
 
 .info-company > ul {
