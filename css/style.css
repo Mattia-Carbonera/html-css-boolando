@@ -118,6 +118,7 @@ a {
 
 .favourite-item {
   position: absolute;
+  color: black;
   background-color: white;
   padding: 0.8rem;
   top: 30px;
