@@ -186,3 +186,10 @@ a {
 .info-company > ul > li {
   padding-right: 10px;
 }
+
+/* ******** secondary page ******** */
+.footer-section {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
