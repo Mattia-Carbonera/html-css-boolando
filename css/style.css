@@ -64,7 +64,7 @@ a {
 
 /* upper card */
 .card-container {
-  padding: 4em 0;
+  padding: 8em 0 4em 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
