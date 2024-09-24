@@ -59,14 +59,67 @@ a {
 
 /* ________HEADER________ */
 
+/* upper card */
 .card-container {
   padding: 4em 0;
 }
 
+.card {
+  /* position: relative; */
+}
+
 .photo-card {
   max-width: 30%;
+  position: relative;
 }
 
 .photo-card > img {
   max-width: 100%;
+}
+
+.label {
+  display: flex;
+}
+
+.percent {
+  background-color: red;
+  padding: 5px 8px;
+  font-weight: bold;
+  font-size: small;
+  color: white;
+  margin-right: 4px;
+}
+
+.sustainability {
+  background-color: green;
+  padding: 5px 8px;
+  font-weight: bold;
+  font-size: small;
+  color: white;
+}
+
+.favourite-item {
+  position: absolute;
+  background-color: white;
+  padding: 0.8rem;
+  top: 30px;
+  right: 0;
+}
+
+.favourite-item > i {
+  font-size: 1.2rem;
+}
+
+/* lower card */
+.label {
+  position: absolute;
+  bottom: 50px;
+}
+
+.item-description > .price > .discount {
+  color: red;
+}
+
+.item-description > .price > .full-price {
+  text-decoration: line-through;
 }
