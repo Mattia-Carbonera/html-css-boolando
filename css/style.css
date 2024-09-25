@@ -79,6 +79,10 @@ li {
   gap: 25px;
 }
 
+.img-uno {
+  display: block;
+}
+
 .card:hover > .photo-card > .img-uno {
   display: none;
 }
